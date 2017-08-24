@@ -1,0 +1,254 @@
+html, body {
+	margin: 0px;
+	background-color: #F9F8FA;
+	font-family: 'Source Sans Pro';
+	color: #323232;
+
+	width: 100%;
+	height: 100%;
+
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.main, .header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h2 {
+	font-size: 3.5em;
+	text-align: center;
+}
+
+.linebreaker {
+	height: 3px;
+	width:  56px;
+	align-self: center;
+	background-color: #506fd4;
+
+	margin-top: 120px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* 	-------------
+	 H E A D E R
+	------------- */
+
+.header {
+	min-height: 100%;
+
+	justify-content: center;
+}
+
+.header > div {
+	margin-top: 20px;
+	text-align: center;
+	max-width: 600px;
+}
+
+.hello {
+	color: #506FD4;
+	font-size: 3.5em;
+}
+
+.catchphr {
+	font-size: 2.4em;
+}
+
+.miniature {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	overflow: hidden;
+}
+
+.miniature > img {
+	width: 100%;
+}
+
+/* 	-----------
+	 A B O U T
+	----------- */
+
+#about {
+	max-width: 800px;
+}
+
+#about p {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+/* 	-------------
+	 S K I L L S
+	------------- */
+
+.skills {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	width: 800px;
+}
+
+.skills > h2 {
+	width: 800px;
+	text-align: center;
+}
+
+.skills h3 {
+	font-size: 1.8em;
+}
+
+.skills p {
+	font-size: 1.2em;
+}
+
+.skills .skill {
+	width: 50%;
+}
+
+.skills .skill p, .skills .skill h3 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* 	-----------------
+	 P R O J E C T S
+	----------------- */
+
+.article {
+	width: 400px;
+	height: 300px;
+}
+
+.main {
+	width: 800px;
+
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.main > h2 {
+	width: 800px;
+}
+
+.articletitle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	text-anchor: middle;
+	text-align: center;
+	line-height: 300px;
+
+	color: white;
+	opacity: 0.001;
+	background-color: white;
+}
+
+.articletitle:hover {
+	transition: opacity 0.5s;
+	opacity: 1;
+}
+
+.media > img {
+	width: 400px;
+}
+
+.description {
+	margin-top: 10px;
+	padding: 10px;
+	text-align: justify;
+	display: none;
+}
+
+.media {
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	overflow: hidden;
+	background-color: white;
+}
+
+
+/* 	---------------
+	 C O N T A C T
+	--------------- */
+
+#contact {
+	display: flex;
+	flex-direction: row;
+
+	justify-content: center;
+}
+
+#contact a {
+	text-decoration: none;
+}
+
+#contact .iconLegend {
+	margin: 0px 30px 30px;
+	font-size: 2em;
+	border-bottom: 3px solid #949494;
+	color: #323232;
+	padding: 2px;
+}
+
+#contact .iconLegend.hover {
+	border-bottom: 3px solid #506FD4;
+}
+
+#contact img {
+	width: 70px;
+}
+
+#contact > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+/* 	-------------
+	 F O O T E R
+	------------- */
+
+.footer {
+	width: 100%;
+	height: 80px;
+
+	margin-top: 200px;
+
+	background-color: #506FD4;
+	color: #748cd3;
+
+	font-size: 0.7em;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer > p {
+	margin: 2px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #92a2d3;
+}

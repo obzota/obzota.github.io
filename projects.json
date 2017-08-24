@@ -1,0 +1,44 @@
+[
+	{
+		"year": 1900,
+		"title": "Mixed reality prototype for infoviz (C++)",
+		"media": "media/isar_cut.png",
+		"background":"rgba(37, 67, 81, 0.8)",
+		"url": "https://youtu.be/GRCs-cS7oNs"
+	},
+	{
+		"year": 1900,
+		"title": "Prototype for 6-DoF interaction (Unity)",
+		"media": "media/6dof_cut.png",
+		"background":"rgba(88, 216, 122, 0.8)",
+		"url": "javascript:;"
+	},
+	{
+		"year": 1900,
+		"title": "100 greatest films of the 21st Century (D3js)",
+		"media": "media/bbcmov.png",
+		"background":"rgba(197, 147, 55, 0.8)",
+		"url": "https://github.com/obzota/galaxy-bbc-100"
+	},
+	{
+		"year": 1900,
+		"title": "Rocket Labs' Marketplace SDK (Java)",
+		"media": "media/rlsdk.png",
+		"background":"rgba(53, 116, 187, 0.8)",
+		"url": "https://github.com/rocket-internet-berlin/SellerCenterSDK-Java"
+	},
+	{
+		"year": 1900,
+		"title": "Actinostola (webGL)",
+		"media": "media/actinostola_cut.png",
+		"background":"rgba(185, 77, 77, 0.8)",
+		"url": "https://github.com/obzota/actinostola.webgl"
+	},
+	{
+		"year": 1900,
+		"title": "Roll a Cube (Unity)",
+		"media": "media/cuberoll.png",
+		"background":"rgba(80, 111, 212, 0.8)",
+		"url": "https://github.com/obzota/roll-a-cube"
+	}
+]
